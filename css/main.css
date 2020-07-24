@@ -1,0 +1,169 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+figure {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menu {
+  height: inherit;
+  width: 500px;
+  margin-right: 30px;
+}
+.menu-items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flaticon-menu-4:before {
+  margin-left: 0;
+  font-size: 15px;
+}
+
+.menu-items li {
+  padding: 0 10px;
+  font-size: 12px;
+  color: #aaa9a7;
+}
+
+.menu-items li a {
+  color: #5a5a5a;
+}
+.menu-items li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.btn-inicio:hover {
+  text-decoration: none !important;
+}
+.btn-inicio {
+  background-color: #4285f4;
+  padding: 7px 15px;
+  color: white !important;
+  box-shadow: 0 0 1px #4285f4;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
+  font-weight: bold;
+}
+
+.main {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.main figure {
+  grid-column: 2/-3;
+}
+.form {
+  margin-top: -20px;
+  width: 535px;
+  grid-column: 2/-3;
+  display: flex;
+  flex-direction: column;
+}
+.form input {
+  width: 100%;
+  outline: none;
+  height: 34px;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: transparent;
+  border: 1px solid rgb(119, 118, 118);
+  /* background-image: url("../assets/font/flaticon.css"); */
+  border-radius: 25px;
+}
+.form input:visited {
+  text-shadow: 1px 1px 12px rgb(119, 118, 118);
+}
+.referencias {
+  margin-top: 15px;
+  text-align: center;
+}
+.referencias a {
+  align-items: center;
+  background-color: #f4f4f4;
+  color: #4e4e4e;
+  font-size: 13px;
+  /* heigsht: 34px; */
+  padding: 8px;
+  margin: 0 4px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.87);
+  border-radius: 4px;
+}
+.referencias a:hover {
+  border: 1px solid rgb(119, 118, 118);
+}
+.main p {
+  grid-column: 2/-3;
+}
+
+.ofrecido,
+.quechua {
+  font-size: 12px;
+}
+.quechua {
+  color: #1a0dab;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.footer-pais {
+  margin-left: 30px;
+  font-size: 14px;
+  color: #929290;
+}
+
+.footer-politicas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sobre-google {
+  margin-left: 15px;
+  font-size: 13px;
+  color: #3b3b3b;
+}
+.sobre-google a,
+.politicas a {
+  color: #4e4e4e;
+  padding: 15px;
+}
+
+.politicas {
+  margin-right: 15px;
+  font-size: 13px;
+}
+
+.sobre-google a:hover,
+.politicas a:hover {
+  text-decoration: underline;
+}
