@@ -125,6 +125,9 @@ figure {
 .quechua {
   color: #1a0dab;
 }
+.quechua:hover {
+  text-decoration: underline;
+}
 
 .footer {
   position: absolute;
